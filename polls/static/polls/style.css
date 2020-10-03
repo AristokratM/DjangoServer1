@@ -1,0 +1,9 @@
+li a {
+    color : green;
+}
+body {
+    background : white url('images/background.gif') no-repeat;
+     height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
