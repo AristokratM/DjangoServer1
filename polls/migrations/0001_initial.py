@@ -16,7 +16,7 @@ class Migration(migrations.Migration):
             name='Question',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('question_text', models.CharField(max_length=200, verbose_name='Dicks')),
+                ('question_text', models.CharField(max_length=200, verbose_name='Question')),
                 ('pub_date', models.DateTimeField(verbose_name='date published')),
             ],
         ),
